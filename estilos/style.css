@@ -9,10 +9,15 @@ html, body {
     width: 100vw;
     background-color: rgb(153, 153, 153);
 }
+body {
+    background: url('../pacote-d013/imagens/fundo-madeira.jpg') no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 main {
     height: 100vw;
     position: relative;
-    background-color: greenyellow;
+    
 }
 section#telefone {
     position: absolute;
@@ -20,8 +25,15 @@ section#telefone {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    height: 500px;
-    width: 500px;
-    background-color: blue;
-    background: url(../pacote-d013/imagens/frame-iphone.png);
-    
+    height: 627px;
+    width: 311px;
+    background: url(../pacote-d013/imagens/frame-iphone.png) no-repeat;
+}
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
+
+}
